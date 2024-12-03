@@ -1,6 +1,3 @@
-
-import './App.css';
-
 import React from "react";
 import ReactDOM from "react-dom/client"
 import DynamicForm from "./components/DynamicForm";
@@ -15,6 +12,3 @@ const App = () => {
 
 const Root = ReactDOM.createRoot(document.querySelector("#root"))
 Root.render( <App /> );
-
-
-export default App;
